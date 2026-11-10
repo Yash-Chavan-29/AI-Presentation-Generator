@@ -4,6 +4,16 @@ An automated presentation generation platform that transforms natural language p
 
 ---
 
+## 📸 Preview & Live Walkthrough
+
+![SlideCraft AI Screenshot](./docs/screenshot.png)
+
+![SlideCraft AI Demo](./docs/demo.gif)
+
+> 🎬 **[Watch Full Demo Video (WebM)](./docs/demo.webm)**
+
+---
+
 ## 🌟 Key Features
 
 * **Prompt-to-Deck Generation:** Converts rough user topics or text dumps into clean slide outlines with structured bullet points, speaker notes, and key takeaways using `@google/genai`.

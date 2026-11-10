@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const LOADING_STATUSES = [
   'Initializing AI agent and reading context...',
@@ -15,7 +15,7 @@ export default function Loader({ isLoading }) {
 
   useEffect(() => {
     if (!isLoading) {
-      setStatusIdx(0);
+      queueMicrotask(() => setStatusIdx(0));
       return;
     }
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FileDown, FileText, ArrowLeft, Layers, Terminal } from 'lucide-react';
 
 export default function OutputView({ data, onReset }) {

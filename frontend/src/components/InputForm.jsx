@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Terminal, Send, Lightbulb } from 'lucide-react';
 
 const SUGGESTIONS = [

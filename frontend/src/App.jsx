@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Sparkles, AlertCircle } from 'lucide-react';
 import InputForm from './components/InputForm';
 import Loader from './components/Loader';
